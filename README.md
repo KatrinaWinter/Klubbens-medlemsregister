@@ -4,7 +4,7 @@ Att-göra-lista - Klubbens medlemsregister
 
 [] 2. Skapa klassen Register. Lägg till en medlem, lista alla (skriv ut nanm + nummer) och sök på namn (skriv ut träffen eller att medelemmen saknas). LaggTillMedelem, HittaAlla, SokMedelem. - Sarah 
 
-[] 3. Skapa meny med scanner. Lägg till medelem, lista alla medlemmar, sök medelem och avsluta. - Katrina
+[x] 3. Skapa meny med scanner. Lägg till medelem, lista alla medlemmar, sök medelem och avsluta. - Katrina
 
 [] 4. Skriv i README.md.  
 
