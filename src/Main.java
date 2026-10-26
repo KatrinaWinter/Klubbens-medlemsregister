@@ -19,6 +19,22 @@ public class Main {
             val = scanner.nextInt();
             scanner.nextLine();
 
+            if (val == 1) {
+                System.out.print("Namn: ");
+                String namn = scanner.nextLine();
+
+                System.out.print("Medlems Nummer: ");
+                int nr = scanner.nextInt();
+                scanner.nextLine();
+
+                Medlem nymedlem = new Medlem(namn, nr);
+                register.LaggTillMedelem(nymedlem); // funkar detta?
+
+            } else if (val == 2) {
+                medlem.HittaAlla();
+
+            }
+
 
         }
 
