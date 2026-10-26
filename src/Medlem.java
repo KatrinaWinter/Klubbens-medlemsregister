@@ -6,4 +6,8 @@ public class Medlem {
         this.namn = namn;
         this.medlemsnummer = medlemsnummer;
     }
+
+    public String getNamn() {
+        return namn;
+    }
 }
