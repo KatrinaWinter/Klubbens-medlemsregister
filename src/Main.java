@@ -33,9 +33,26 @@ public class Main {
             } else if (val == 2) {
                 medlem.HittaAlla();
 
+            } else if (val == 3) {
+                System.out.println("Ange Namn: ");
+                String namn = scanner.nextLine();
+
+                Medlem hittad = medlem.SokMedelem(namn);// funkar detta?
+
+                if (hittad != null) { // hur är metoden skriven... funkar detta?
+                    System.out.println(hittad.getNamn() +
+                            ", Medlems nr: " +
+                            hittad.getNr());
+                } else {
+                    System.out.println(namn + " hittades inte.");
+                }
+
+            } else if (val == 4) {
+                System.out.println("Programmet avslutas.");
+
+            } else {
+                System.out.println( "Ogiltigt val. Välj mellan 1 och 4.");
             }
-
-
         }
 
         scanner.close();
