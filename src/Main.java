@@ -6,7 +6,7 @@ public class Main {
         Register register = new Register();
 
         System.out.println("\n--- MedlemsRegister ---");
-
+medlem
         int val = 0;
 
         while (val != 4) {
@@ -31,13 +31,13 @@ public class Main {
                 register.LaggTillMedelem(nymedlem); // funkar detta?
 
             } else if (val == 2) {
-                medlem.HittaAlla();
+                register.HittaAlla();
 
             } else if (val == 3) {
                 System.out.println("Ange Namn: ");
                 String namn = scanner.nextLine();
 
-                Medlem hittad = medlem.SokMedelem(namn);// funkar detta?
+                Medlem hittad = register.SokMedelem(namn);// funkar detta?
 
                 if (hittad != null) { // hur är metoden skriven... funkar detta?
                     System.out.println(hittad.getNamn() +
