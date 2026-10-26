@@ -10,4 +10,8 @@ public class Medlem {
     public String getNamn() {
         return namn;
     }
+
+    public int getMedlemsnummer() {
+        return medlemsnummer;
+    }
 }
