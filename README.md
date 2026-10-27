@@ -35,8 +35,10 @@ Gemensamt: Vi använde ChatGPT för att diskutera hur vi kunde dela upp arbetet 
 Katrina: När jag hade skrivit min Main-klass bad jag ChatGPT granska koden och se om jag hade missat något eller om något såg konstigt ut. 
 Jag jämförde återkopplingen med uppgiftens krav och våra överenskomna metodnamn för att avgöra vad som behövde rättas eller kontrolleras.
 
+Sarah: Jag använde AI som ett bollplank och stämde av för att se om min kod såg okej ut eller om det var något som behövde ändras. 
 
-Commits 
+
+Vi använder följande commits;  
 
 chore: text
 feat: text
