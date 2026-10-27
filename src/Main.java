@@ -27,7 +27,7 @@ public class Main {
                 scanner.nextLine();
 
                 Medlem nymedlem = new Medlem(namn, nr);
-                register.LaggTillmedlem(nymedlem); // funkar detta?
+                register.LaggTillMedelem(nymedlem);
 
             } else if (val == 2) {
                 register.HittaAlla();
@@ -36,9 +36,9 @@ public class Main {
                 System.out.println("Ange Namn: ");
                 String namn = scanner.nextLine();
 
-                Medlem hittad = register.Sokmedlem(namn);// funkar detta?
+                Medlem hittad = register.SokMedelem(namn);
 
-                if (hittad != null) { // hur är metoden skriven... funkar detta?
+                if (hittad != null) {
                     System.out.println(hittad.getNamn() +
                             ", Medlems nr: " +
                             hittad.getMedlemsnummer());
