@@ -2,9 +2,9 @@ Att-göra-lista - Klubbens medlemsregister
 
 [] 1. Skapa klassen Medlem med namn (String) och medlemsnummer (int), fälten private, en konstruktor som sätter fälten när objektet skapas och metoder för att läsa namn och nummer (getNamn()) och (getNr()). - Tekla
 
-[] 2. Skapa klassen Register. Lägg till en medlem, lista alla (skriv ut nanm + nummer) och sök på namn (skriv ut träffen eller att medelemmen saknas). LaggTillMedelem, HittaAlla, SokMedelem. - Sarah 
+[x] 2. Skapa klassen Register. Lägg till en medlem, lista alla (skriv ut nanm + nummer) och sök på namn (skriv ut träffen eller att medlemmen saknas). LaggTillmedlem, HittaAlla, Sokmedlem. - Sarah 
 
-[x] 3. Skapa meny med scanner. Lägg till medelem, lista alla medlemmar, sök medelem och avsluta. - Katrina
+[x] 3. Skapa meny med scanner. Lägg till medlem, lista alla medlemmar, sök medlem och avsluta. - Katrina
 
 [] 4. Skriv i README.md.  
 
