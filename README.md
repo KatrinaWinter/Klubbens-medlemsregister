@@ -8,13 +8,28 @@ Att-göra-lista - Klubbens medlemsregister
 
 [] 4. Skriv i README.md.  
 
-Datalogiskt tänkande: Hur bröt ni ner uppgiften i delsteg och en att-göra-lista innan ni började skriva Java-koden?
+Datalogiskt tänkande:
+Vi gick igenom uppgiften och jämförde den med en att-göra-lista från ett tidigare arbete för att få en bra grund och dela upp arbetet i tydliga delsteg. 
+Vi skrev in uppgifterna i README-filen och fördelade ansvaret mellan gruppmedlemmarna. 
+När vi arbetade på våra egna branches delade vi vid behov upp uppgifterna i mindre steg.
 
 Klass vs Objekt: Varför är Medlem en egen klass och inte bara variabler i Main? Vad representerar ett objekt i er app?
 
-Samarbete i Git: Vilken samarbetsstrategi valde ni (parprogrammering eller branches) och hur gjorde ni för att inte skriva över varandras arbete?
+Samarbete i Git:
+Vi valde att arbeta med branches och att varje gruppmedlem ansvarade för sin egen klass. 
+Vi samarbetade också genom anteckningar i README-filen och kom överens om namn på getters och metoder för att våra klasser skulle fungera tillsammans. 
+Vi bestämde att vi kunde bocka av uppgifter i att-göra-listan, men att vi inte skulle ändra i varandras klasser före nästa merge. 
+På så sätt kunde vi arbeta parallellt och minska risken för konflikter.
+
 
 Ett problem ni löste: Beskriv ett problem som uppstod och hur ni löste det tillsammans. Det kan vara en bugg/krock i koden eller Git, men även en utmaning kring planering och samarbete.
+
+Reflektion kring AI och externa hjälpmedel
+Gemensamt: Vi använde ChatGPT för att diskutera hur vi kunde dela upp arbetet och planera utvecklingen och använde även anteckningar och tidigare arbeten som stöd.
+
+Katrina: När jag hade skrivit min Main-klass bad jag ChatGPT granska koden och se om jag hade missat något eller om något såg konstigt ut. 
+Jag jämförde återkopplingen med uppgiftens krav och våra överenskomna metodnamn för att avgöra vad som behövde rättas eller kontrolleras.
+
 
 Commits 
 
