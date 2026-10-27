@@ -15,19 +15,38 @@ public class Main {
             System.out.println("4. Avsluta");
             System.out.println("\nVälj ett alternativ: ");
 
-            val = scanner.nextInt();
-            scanner.nextLine();
+            String input = scanner.nextLine();
+
+            try {
+                val = Integer.parseInt(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Ange en siffra från menyn.");
+                continue;
+            }
 
             if (val == 1) {
+
                 System.out.print("Namn: ");
                 String namn = scanner.nextLine();
 
-                System.out.print("Medlems Nummer: ");
-                int nr = scanner.nextInt();
-                scanner.nextLine();
+                int nr = 0;
+                boolean giltigtNr = false;
+
+                while (!giltigtNr) {
+                    System.out.print("Medlemsnummer: ");
+                    String inmatning = scanner.nextLine();
+
+                    try {
+                        nr = Integer.parseInt(inmatning);
+                        giltigtNr = true;
+                    } catch (NumberFormatException e) {
+                        System.out.println("Ange ett giltigt medlemsnummer med siffror.");
+                    }
+                }
 
                 Medlem nymedlem = new Medlem(namn, nr);
                 register.LaggTillmedlem(nymedlem);
+
 
             } else if (val == 2) {
                 register.HittaAlla();
