@@ -32,7 +32,7 @@ Sarah: Jag använde AI som ett bollplank och stämde av för att se om min kod s
 
 Att-göra-lista 
 
-[x] 1. Skapa klassen Medlem med namn (String) och medlemsnummer (int), fälten private, en konstruktor som sätter fälten när objektet skapas och metoder för att läsa namn och nummer (getNamn()) och (getNr()). - Tekla
+[x] 1. Skapa klassen Medlem med namn (String) och medlemsnummer (int), fälten private, en konstruktor som sätter fälten när objektet skapas och metoder för att läsa namn och nummer (getNamn()) och (getMedlemsnummer()). - Tekla
 
 [x] 2. Skapa klassen Register. Lägg till en medlem, lista alla (skriv ut namn + nummer) och sök på namn (skriv ut träffen eller att medlemmen saknas). LaggTillmedlem, HittaAlla, Sokmedlem. - Sarah
 
