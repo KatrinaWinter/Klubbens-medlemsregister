@@ -1,12 +1,4 @@
-Att-göra-lista - Klubbens medlemsregister
-
-[x] 1. Skapa klassen Medlem med namn (String) och medlemsnummer (int), fälten private, en konstruktor som sätter fälten när objektet skapas och metoder för att läsa namn och nummer (getNamn()) och (getNr()). - Tekla
-
-[x] 2. Skapa klassen Register. Lägg till en medlem, lista alla (skriv ut namn + nummer) och sök på namn (skriv ut träffen eller att medlemmen saknas). LaggTillmedlem, HittaAlla, Sokmedlem. - Sarah 
-
-[x] 3. Skapa meny med scanner. Lägg till medlem, lista alla medlemmar, sök medlem och avsluta. - Katrina
-
-[x] 4. Skriv i README.md.  
+# Klubbens medlemsregister
 
 
 Datalogiskt tänkande:
@@ -14,8 +6,7 @@ Vi gick igenom uppgiften och jämförde den med en att-göra-lista från ett tid
 Vi skrev in uppgifterna i README-filen och fördelade ansvaret mellan gruppmedlemmarna. 
 När vi arbetade på våra egna branches delade vi vid behov upp uppgifterna i mindre steg.
 
-Klass vs Objekt: Varför är Medlem en egen klass och inte bara variabler i Main? Vad representerar ett objekt i er app?
-
+Klass vs Objekt:
 Medlem får egen klass eftersom den ska kontrollera att medlemmarna får sitt namn och nummer. Det är den klassens fokus på. om den skulle va variabler i Main så skulle den bli svårare att hantera och kontrollera när man ska ha flera medlemmar.
 
 Samarbete i Git:
@@ -25,9 +16,11 @@ Vi bestämde att vi kunde bocka av uppgifter i att-göra-listan, men att vi inte
 På så sätt kunde vi arbeta parallellt och minska risken för konflikter.
 
 
-Ett problem ni löste: Beskriv ett problem som uppstod och hur ni löste det tillsammans. Det kan vara en bugg/krock i koden eller Git, men även en utmaning kring planering och samarbete.
-
-Ett problem vi löste var att vi hade stavfel på några ställen vilket var lätt att fixa. Vi satt tillsammans efter våran merge och rättade tillsammans.
+Ett problem ni löste:
+Ett problem vi löste var en merge-konflikt som uppstod när ändringar gjordes på olika sätt, både via en PR och direkt utan PR. 
+Vi granskade konflikten tillsammans på GitHub och mergade ändringarna. 
+Under arbetet stötte vi även på problem med stavfel och hamnade i Vim när Git behövde ett commitmeddelande för en merge. 
+Med hjälp av AI och genom att samarbeta löste vi problemen och fick koden att fungera.
 
 Reflektion kring AI och externa hjälpmedel
 Gemensamt: Vi använde ChatGPT för att diskutera hur vi kunde dela upp arbetet och planera utvecklingen och använde även anteckningar och tidigare arbeten som stöd.
@@ -37,9 +30,17 @@ Jag jämförde återkopplingen med uppgiftens krav och våra överenskomna metod
 
 Sarah: Jag använde AI som ett bollplank och stämde av för att se om min kod såg okej ut eller om det var något som behövde ändras. 
 
+Att-göra-lista 
 
-Vi använder följande commits;  
+[x] 1. Skapa klassen Medlem med namn (String) och medlemsnummer (int), fälten private, en konstruktor som sätter fälten när objektet skapas och metoder för att läsa namn och nummer (getNamn()) och (getNr()). - Tekla
 
+[x] 2. Skapa klassen Register. Lägg till en medlem, lista alla (skriv ut namn + nummer) och sök på namn (skriv ut träffen eller att medlemmen saknas). LaggTillmedlem, HittaAlla, Sokmedlem. - Sarah
+
+[x] 3. Skapa meny med scanner. Lägg till medlem, lista alla medlemmar, sök medlem och avsluta. - Katrina
+
+[x] 4. Skriv i README.md.
+
+Vi använder följande commits;
 chore: text
 feat: text
 fix: text
