@@ -41,7 +41,7 @@ public class Main {
                 if (hittad != null) { // hur är metoden skriven... funkar detta?
                     System.out.println(hittad.getNamn() +
                             ", Medlems nr: " +
-                            hittad.getNr());
+                            hittad.getMedlemsnummer());
                 } else {
                     System.out.println(namn + " hittades inte.");
                 }
