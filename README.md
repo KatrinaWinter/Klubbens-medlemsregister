@@ -6,7 +6,7 @@ Att-göra-lista - Klubbens medlemsregister
 
 [x] 3. Skapa meny med scanner. Lägg till medlem, lista alla medlemmar, sök medlem och avsluta. - Katrina
 
-[] 4. Skriv i README.md.  
+[x] 4. Skriv i README.md.  
 
 
 Datalogiskt tänkande:
