@@ -25,7 +25,7 @@ public class Register {
         //Om listan inte är tom, gå igenom varje medlem i listan. 
         for (Medlem medlem : medlemmar) {
             //Skriv ut deras namn och medlemsnummer.
-            System.out.println("Namn: " + medlem.getNamn() + ", Medlemsnummer: " + medlem.getNr());
+            System.out.println("Namn: " + medlem.getNamn() + ", Medlemsnummer: " + medlem.getMedlemsnummer());
         }
     }
 
