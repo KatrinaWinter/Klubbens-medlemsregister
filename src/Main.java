@@ -6,7 +6,6 @@ public class Main {
         Register register = new Register();
 
         System.out.println("\n--- MedlemsRegister ---");
-medlem
         int val = 0;
 
         while (val != 4) {
@@ -58,6 +57,3 @@ medlem
         scanner.close();
     }
 }
-
-
-
