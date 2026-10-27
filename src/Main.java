@@ -27,7 +27,7 @@ public class Main {
                 scanner.nextLine();
 
                 Medlem nymedlem = new Medlem(namn, nr);
-                register.LaggTillMedelem(nymedlem);
+                register.LaggTillmedlem(nymedlem);
 
             } else if (val == 2) {
                 register.HittaAlla();
@@ -36,7 +36,7 @@ public class Main {
                 System.out.println("Ange Namn: ");
                 String namn = scanner.nextLine();
 
-                Medlem hittad = register.SokMedelem(namn);
+                Medlem hittad = register.Sokmedlem(namn);
 
                 if (hittad != null) {
                     System.out.println(hittad.getNamn() +
